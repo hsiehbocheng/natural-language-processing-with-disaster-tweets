@@ -25,8 +25,12 @@ The `df_train.xlsx` and `df_test.xlsx` files contain the preprocessed data for t
 The `clean_mapping.csv` file contains the mapping of the original labels to the new labels.
 The logic for data cleaning comes from a source in GUNES EVITAN's public notebook on Kaggle: [NLP with Disaster Tweets - EDA, Cleaning and BERT](https://www.kaggle.com/code/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert). He put a lot of effort into analyzing this dataset, effectively handling erroneous marked texts, extracting keywords from the stems, and organizing abbreviations.
 
-I am very grateful for his contribution. All modeling will be based on the cleaned data, specifically df_train.xlsx and df_test.xlsx.
+I am very grateful for his contribution. All modeling will be based on the cleaned data, specifically `df_train.xlsx` and `df_test.xlsx`.
 
+## modeling
+The following models will be implemented:
+- BERT (Bidirectional Encoder Representations from Transformers)
+- BERT Fine-tuneing with LoRA
 ---
 [kaggle](https://www.kaggle.com/competitions/nlp-getting-started)
 # Competition Description
