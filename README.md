@@ -21,7 +21,11 @@ the data folder structure is as follows:
 
 The `train.csv` and `test.csv` files contain the text data for the training and testing datasets, respectively.
 The `df_train.xlsx` and `df_test.xlsx` files contain the preprocessed data for the training and testing datasets, respectively. The `sample_submission.csv` file contains the format for the submission file. 
+
 The `clean_mapping.csv` file contains the mapping of the original labels to the new labels.
+The logic for data cleaning comes from a source in GUNES EVITAN's public notebook on Kaggle: [NLP with Disaster Tweets - EDA, Cleaning and BERT](https://www.kaggle.com/code/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert). He put a lot of effort into analyzing this dataset, effectively handling erroneous marked texts, extracting keywords from the stems, and organizing abbreviations.
+
+I am very grateful for his contribution. All modeling will be based on the cleaned data, specifically df_train.xlsx and df_test.xlsx.
 
 ---
 [kaggle](https://www.kaggle.com/competitions/nlp-getting-started)
