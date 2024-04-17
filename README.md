@@ -1,6 +1,6 @@
 # natural-language-processing-with-disaster-tweets
-Kaggle Competition, Public score: 0.83328, top 88%</p>
-implementing different NLP techniques including Bert, Naiive Bayes to classify disaster tweets.
+
+This repository contains the code for a Kaggle competition where different NLP techniques, including BERT and Naive Bayes, were implemented to classify disaster tweets. The project ranked in the top 12% with an accuracy score of 0.8332.
 
 # implementation
 ## data preproceesing
