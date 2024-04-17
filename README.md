@@ -15,11 +15,15 @@ the data folder structure is as follows:
 │  ├─ sample_submission.csv
 │  └─ clean_mapping.csv
 │
+├─ notebook/
+│  ├─ data_preprocessing.ipynb
+│  ├─ distilbert.ipynb
+│
 ├─ .gitignore
 ├─ README.md
 ```
 
-The `train.csv` and `test.csv` files contain the text data for the training and testing datasets, respectively.
+`notebooks/data_preprocessing.ipynb` contains the code for data preprocessing. The `train.csv` and `test.csv` files contain the text data for the training and testing datasets, respectively.
 The `df_train.xlsx` and `df_test.xlsx` files contain the preprocessed data for the training and testing datasets, respectively. The `sample_submission.csv` file contains the format for the submission file. 
 
 The `clean_mapping.csv` file contains the mapping of the original labels to the new labels.
