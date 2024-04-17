@@ -2,6 +2,23 @@
 Kaggle Competition, Public score: 0.83328, top 88%
 implementing different NLP techniques including Bert, Naiive Bayes to classify disaster tweets.
 
+# implementation
+## data preproceesing
+the data folder structure is as follows:
+./
+├─ data/
+│  ├─ train.csv
+│  ├─ test.csv
+│  ├─ df_trian.xlsx
+│  ├─ df_test.xlsx
+│  ├─ sample_submission.csv
+│  └─ clean_mapping.csv
+│
+├─ .gitignore
+├─ README.md
+
+The `train.csv` and `test.csv` files contain the text data for the training and testing datasets, respectively. The `df_train.xlsx` and `df_test.xlsx` files contain the preprocessed data for the training and testing datasets, respectively. The `sample_submission.csv` file contains the format for the submission file. The `clean_mapping.csv` file contains the mapping of the original labels to the new labels.
+
 ---
 [kaggle](https://www.kaggle.com/competitions/nlp-getting-started)
 # Competition Description
