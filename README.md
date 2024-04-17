@@ -32,8 +32,9 @@ The following models will be implemented:
 - BERT (Bidirectional Encoder Representations from Transformers)
 - BERT Fine-tuneing with LoRA
 ---
-[kaggle](https://www.kaggle.com/competitions/nlp-getting-started)
+
 # Competition Description
+[kaggle competition link](https://www.kaggle.com/competitions/nlp-getting-started)
 Welcome to one of our "Getting Started" competitions 👋
 This particular challenge is perfect for data scientists looking to get started with Natural Language Processing. The competition dataset is not too big, and even if you don’t have much personal computing power, you can do all of the work in our free, no-setup, Jupyter Notebooks environment called Kaggle Notebooks.
 
